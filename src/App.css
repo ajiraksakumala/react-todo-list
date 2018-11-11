@@ -1,0 +1,60 @@
+span {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  color: whitesmoke;
+}
+
+.gridList {
+  border-left: #7547B3 6px solid;
+  margin-bottom: 1rem;
+}
+
+.listData {
+  margin-bottom: 1rem
+}
+
+.btnEdit, .btnAdd {
+  border-color: #fff;
+  color: #fff;
+}
+.btnEdit, .btnAdd:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btnList {
+  border-color: #7547B3;
+  color: #7547B3;
+}
+
+.btnList:hover {
+  background-color: #7547B3;
+  color: #ffffff;
+}
+
+.gridBtn {
+  text-align: right;
+}
+
+.header {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  background-color: #7547B3;
+}
+
+#textInput {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+      text-align: center;
+  }
+  .btnList {
+    margin-top: 1rem;
+  }
+  .gridBtn {
+    text-align: left;
+  }
+}
